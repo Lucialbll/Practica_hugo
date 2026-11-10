@@ -1,0 +1,27 @@
+[
+  {
+    "url": "/posts/hello-world/",
+    "title": "Hello world",
+    "text": "This is my first blog post.\n\nI'm learning how to create websites with Hugo.",
+    "tags": [
+      "hugo",
+      "blog"
+    ]
+  },
+  {
+    "url": "/",
+    "title": "Mi primera página con Hugo",
+    "text": "Esta es mi primera página web con Hugo.\n\nEstoy aprendiendo a reutilizar fragmentos HTML mediante parciales.\n\nSobre mí\n\nPuedes ver mis proyectos en mi perfil de GitHub [Mi perfil de GitHub](https://github.com/Lucialbll/Lucialbll)",
+    "tags": [
+      "hugo",
+      "html",
+      "sql"
+    ]
+  },
+  {
+    "url": "/contact/",
+    "title": "Página de contacto",
+    "text": "Envíame un correo a hola@mundo.net",
+    "tags": []
+  }
+]

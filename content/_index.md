@@ -1,7 +1,9 @@
-+++
-title = "Mi primera página con Hugo"
-+++
-
+---
+title: "Mi primera página con Hugo"
+date: 2026-11-09
+draft: false
+tags: ["hugo", "html", "sql"]
+---
 Esta es mi primera página web con Hugo.
 
 Estoy aprendiendo a reutilizar fragmentos HTML mediante parciales.

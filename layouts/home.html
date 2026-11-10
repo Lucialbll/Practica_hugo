@@ -1,7 +1,26 @@
+
 {{ partial "header.html" . }}
 
 <h1>{{ .Title }}</h1>
 
 {{ .Content }}
+<section id="etiquetas">
+    <h2>Etiquetas</h2>
+
+    <ul>
+        {{ range $tag, $count := site.Data.tags }}
+        <li>{{ $tag }} ({{ $count }})</li>
+        {{ end }}
+    </ul>
+</section>
+<section id="buscador">
+    <h2>Buscar artículos</h2>
+
+    <input type="text" id="search-input" placeholder="Escribe para buscar...">
+
+    <div id="search-results"></div>
+</section>
+
+<script src="/js/search.js"></script>
 
 {{ partial "footer.html" . }}
