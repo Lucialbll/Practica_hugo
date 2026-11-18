@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }}</title>
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
 </head>
 <body>
     <header>
         <nav>
-            <a href="/">Inicio</a>
-            <a href="/posts/">Artículos</a>
-            <a href="/contact/">Contacto</a>
+            <a href="{{ .Site.Home.RelPermalink }}">Inicio</a>
+            <a href="{{ "posts/" | relURL }}">Artículos</a>
+            <a href="{{ "contact/" | relURL }}">Contacto</a>
         </nav>
     </header>
